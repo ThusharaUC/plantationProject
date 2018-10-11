@@ -86,9 +86,6 @@ a:hover {
   outline: none
 }
 
-section {
-  padding: 40px 0;
-}
 
 .heading {
   padding-bottom:90px;
@@ -332,7 +329,13 @@ section {
 #about-us h1 {
   margin-bottom: 30px;
 }
-
+#services ,#projects,#team,#contact{
+    background-image: url(../images/services-bg.png);
+    padding: 60px 0;
+}
+#features{
+  padding: 45px 0px;
+}
 .progress{
   height: 20px;
   background-color: #fff;
