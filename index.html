@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -5,6 +6,14 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>Haritha Sri Lanka</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet"> 
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -15,21 +24,526 @@
   <link rel="shortcut icon" href="images/favicon.ico">
 </head><!--/head-->
 
-<body style="background-color:#041e05">
+<body>
 
   <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
   <!--/.preloader-->
 
   <header id="home">
-
-          <div style="text-align: center;width: auto;padding: 17%;align-self: center;
-    height: auto;vertical-align: middle;" class="caption">
-		          
-            <div>
-			<h1><img class="img-responsive" src="images/logo.png" alt="logo" width=296 height=80></h1>
-            <label class="animated fadeInRightBig" style="color: #3d9328;font-size: xx-large;
-    font-weight: bold;font-family: monospace;">Haritha is Under planting</label>
-			</div>
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/rubber_5.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Welcome to <span>Plantation Project</span></h1>
+            <p class="animated fadeInRightBig">The best time to plant a tree is just now</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
           </div>
- </header><!--/#home-slider-->
- </body>
+        </div>
+        <div class="item" style="background-image: url(images/slider/rubber_2.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Plant a <span>Tree</span></h1>
+            <p class="animated fadeInRightBig">for you and for your coming generations</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/rubber_4.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Tree <span>plantation   </span></h1>
+            <p class="animated fadeInRightBig">is a life style not a one-time campaign</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
+          </div>
+        </div>
+      </div>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
+
+    </div><!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><img class="img-responsive" src="images/logo.png" alt="logo" width=148 height=40></h1>
+          </a>                    
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">                 
+            <li class="scroll active"><a href="#home">Home</a></li>
+            <li class="scroll"><a href="#services">Service</a></li> 
+            <li class="scroll"><a href="#about-us">About Us</a></li>                     
+            <li class="scroll"><a href="#projects">Projects</a></li>
+            <li class="scroll"><a href="#team">Team</a></li>
+            <!-- <li class="scroll"><a href="#blog">Blog</a></li> -->
+            <li class="scroll"><a href="#contact">Contact</a></li>       
+          </ul>
+        </div>
+      </div>
+    </div><!--/#main-nav-->
+  </header><!--/#home-->
+  <section id="services">
+    <div class="container">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+            <h2>Our Vision</h2>
+            <h4>Enhancement of the depleted Forest Cover percentage of Sri Lanka. </h4>
+          </div>
+        </div> 
+      </div>
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+            <h2>Our Mission</h2>
+            <h4>While stepping into the second century of powerful existence, we urge to motivate and guide the Lions to increase the forest cover by 100<sup>2</sup> planting 10,000 trees.</h4>
+          </div>
+        </div> 
+      </div>
+      </div>
+  </section><!--/#services-->
+  <section id="about-us" class="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>About us</h2>
+            <p>DIYAWANNA NADEE Club belonging to District 306 C1 was formed in 2012/13. Its project HARITHA SRI LANKA is a tree plantation initiative as per the concept of the Project Chairman Lion Ajith Alahakon. </p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>About Harith Sri Lanka</h2>
+            <p>The adverse effects on the environment by the decrease of forest cover leads to an uncertain green future in the country. As responsible senior citizens paving the way for many generations to come, we identify the need to address the immediate concern- growing trees to nurture them. Each project operated island-wide has an official in charge who is responsible for the trees planted. Thus in 10years to come, all 10,000 trees will be looked after with care.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#about-us-->
+
+  <section id="projects">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <h2>Our Projects</h2><br>
+          <div class="text-left">
+          <h3><b>1.Project in KANDEKATIYA </b></h3>
+          <p>The launching project is to happen today (12<sup>th</sup> Of October 2018) in Kandaketiya. The program in planting 100 trees is co-ordinated by Dr. Gayan Perera and Mr. D. M. Jayasundara. </p>
+      </div>
+        </div>
+      </div> 
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/1.jpg" alt="">
+            </div>
+           <!--  <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Time Hours</h3>
+                    <p>Design, Photography</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div> -->
+            <!-- </div> -->
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/2.jpg" alt="">
+            </div>
+            <!-- <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Time Hours</h3>
+                    <p>Design, Photography</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div> -->
+            <!-- </div> -->
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/3.jpg" alt="">
+            </div>
+            <!-- <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Time Hours</h3>
+                    <p>Design, Photography</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div> -->
+            <!-- </div> -->
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/4.jpg" alt="">
+            </div>
+            <!-- <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Time Hours</h3>
+                    <p>Design, Photography</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div> -->
+            <!-- </div> -->
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/5.jpg" alt="">
+            </div>
+            <!-- <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Time Hours</h3>
+                    <p>Design, Photography</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div> -->
+            <!-- </div> -->
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/6.jpg" alt="">
+            </div>
+            <!-- <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Time Hours</h3>
+                    <p>Design, Photography</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div> -->
+            <!-- </div> -->
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/7.jpg" alt="">
+            </div>
+            <!-- <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Time Hours</h3>
+                    <p>Design, Photography</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div> -->
+            <!-- </div> -->
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/8.jpg" alt="">
+            </div>
+            <!-- <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Time Hours</h3>
+                    <p>Design, Photography</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    <div id="portfolio-single-wrap">
+      <div id="portfolio-single">
+      </div>
+    </div><!-- /#portfolio-single-wrap -->
+  </section><!--/#portfolio-->
+
+<section id="features" class="parallax">
+    <div class="container">
+      <div class="row count">
+        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <i class="fa fa-user"></i>
+          <h3 class="timer">1</h3>
+          <p>Ongoing Projects</p>
+        </div>
+        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+          <i class="fa fa-desktop"></i>
+          <h3 class="timer">2</h3>                    
+          <p>Upcoming Projects</p>
+        </div> 
+        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+          <i class="fa fa-trophy"></i>
+          <h3 class="timer">0</h3>                    
+          <p>Success Projects </p>
+        </div> 
+        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
+          <i class="fa fa-pagelines"></i>                    
+          <h3>100</h3>
+          <p>Planted Trees</p>
+        </div>                 
+      </div>
+    </div>
+  </section><!--/#features-->
+  <section id="team">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>The Team</h2>
+        </div>
+      </div>
+      <div class="team-members">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/1.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Lion Ajith Alahakoon</h3>
+                <h4>Project Founder</h4>
+                <p>Haritha Sri Lanka</p>
+              </div>
+              <div class="social-icons hide-this">
+                <ul>
+                  <li><a class="facebook" href="https://www.facebook.com/ajith.alahakoon?ref=br_rs" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li disabled><a class="twitter" href="#"><i class="fa fa-twitter" ></i></a></li>
+                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                  <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/2.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Lion Vidura Alahakoon</h3>
+                <h4>President</h4>
+                <p>Diyawanna Nadee Lions Club</p>
+              </div>
+              <div class="social-icons hide-this">
+                <ul>
+                  <li><a class="facebook" href="https://www.facebook.com/profile.php?id=1070124613" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li><a class="twitter" href="#" ><i class="fa fa-twitter"></i></a></li>
+                  <li><a class="linkedin" href="https://www.linkedin.com/in/vidura-alahakoon-a2b95914b" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                  <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/3.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Lion Ragana Dilan </h3>
+                <h4>Secretary</h4>
+                <p>Diyawanna Nadee Lions Club</p>
+              </div>
+              <div class="social-icons hide-this">
+                <ul>
+                  <li><a class="facebook" href="https://www.facebook.com/isurini.wickramanayake" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+                  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a class="linkedin" href="https://www.linkedin.com/in/isurini-wickramanayake-53b2a977" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                  <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/4.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Lion Thisara Mohotti</h3>
+                <h4>Membership Director</h4>
+                <p>Diyawanna Nadee Lions Club</p>
+              </div>
+              <div class="social-icons hide-this">
+                <ul>
+                  <li><a class="facebook" href="https://www.facebook.com/gayan.perera.311" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                  <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>            
+    </div>
+  </section><!--/#team-->
+
+  <section id="contact">
+    <div id="google-map" class="wow fadeIn" data-latitude="6.9039189" data-longitude="79.9240715" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
+    <div id="contact-us" class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>Contact Us</h2>
+           
+          </div>
+        </div>
+        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <!-- <div class="col-sm-6">
+              <form id="main-contact-form" name="contact-form" method="post" action="#">
+                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+                </div>
+                <div class="form-group">
+                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
+                </div>                        
+                <div class="form-group">
+                  <button type="submit" class="btn-submit">Send Now</button>
+                </div>
+              </form>   
+            </div> -->
+            <div class="text-center">
+              <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">              
+                <ul class="address">
+                  <li><i class="fa fa-map-marker"></i> <span> Address:</span> No.380/3, Robert Gunawardena Mawatha, Ganahena, Battaramulla, Sri Lanka </li>
+                  <li><i class="fa fa-phone"></i> <span> Phone:</span> +94 77 109 2112</li>
+                  <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:someone@yoursite.com"> ajithkoon@gmail.com</a></li>
+                  <!-- <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="#">www.sitename.com</a></li> -->
+                  <li><i class="fa fa-facebook"></i> <span> </span> <a href="https://www.facebook.com/pages/category/Organization/Lions-Club-of-Diyawanna-Oya-1156412041085758/">facebook.com/Lions-Club-of-Diyawanna-Oya</a></li>
+                  
+                </ul>
+              </div>                            
+            </div>
+        </div>
+      </div>
+    </div>        
+  </section><!--/#contact-->
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="footer-logo ">
+          <a href="index.html"><img class="img-responsive footer-logo-style" src="images/lionsClubLogo.png"  width=80 height=80 alt=""></a>
+        </div>
+        <div class="footer-logo">
+          <a href="index.html"><img class="img-responsive footer-logo-style" src="images/lionsClubLogoDiyawannaNadi.png"  width=80 height=80  alt=""></a>
+        </div>
+        <div class="footer-logo">
+          <a href="index.html"><img class="img-responsive footer-logo-style" src="images/logo.png"  width=296 height=80 alt=""></a>
+        </div>
+        <div class="footer-logo">
+          <a href="index.html"><img class="img-responsive footer-logo-style" src="images/lci-centennial-100-logo.png"  width=80 height=80 alt=""></a>
+        </div>
+        <div class="footer-logo">
+          <a href="index.html"><img class="img-responsive footer-logo-style" src="images/diyawannaLogo.png"  width=80 height=80 alt=""></a>
+        </div>
+        <!-- <div class="social-icons hide-this">
+          <ul>
+            <li><a class="envelope" href="#"><i class="fa fa-envelope"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li> 
+            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a class="tumblr" href="#"><i class="fa fa-tumblr-square"></i></a></li>
+          </ul>
+        </div> -->
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p></p>
+          </div>
+          <div class="col-sm-6">
+            <!-- <p class="pull-right">All right reserved <b><I>B+Tecq</I></b></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyDaQ3e-Kz5W8G94Rg7cF4bvJlxaaIQmPiA&sensor=true"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
