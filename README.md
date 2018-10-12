@@ -1,0 +1,2 @@
+<h1>Harith Sri Lanka</h1>
+The adverse effects on the environment by the decrease of forest cover leads to an uncertain green future in the country. As responsible senior citizens paving the way for many generations to come, we identify the need to address the immediate concern- growing trees to nurture them. Each project operated island-wide has an official in charge who is responsible for the trees planted. Thus in 10years to come, all 10,000 trees will be looked after with care.
